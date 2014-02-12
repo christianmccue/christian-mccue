@@ -1,5 +1,3 @@
-package nbaShotData;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -36,7 +34,7 @@ public class ShotProb {
 public static void main(String[] args) {
 	
 	//Runs method for updating makes, attempts counts on a master "merged" file of all the nba game files
-	UpdateStats("/Users/christianmccue/Downloads/merged.csv");
+	UpdateStats("merged.csv");
 	
 	//initialize probability variables and computes probability by (makes/attempts)
     double longDistanceProb = 0.0;
