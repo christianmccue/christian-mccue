@@ -1,4 +1,4 @@
 christian-mccue
 ===============
 
-Christian McCue
+Welcome to Christian McCue's github repository!
